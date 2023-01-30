@@ -1,0 +1,99 @@
+@startuml
+annotation java.lang.SuppressWarnings
+class com.mycompany.mavenproject1.Account
+class com.mycompany.mavenproject1.Machine
+class com.mycompany.mavenproject1.Mavenproject1
+class com.mycompany.mavenproject1.Withdra
+class com.mycompany.mavenproject1.display
+class com.mycompany.mavenproject1.home
+class com.mycompany.mavenproject1.login
+class java.awt.Toolkit
+class java.awt.event.WindowEvent
+class java.sql.Connection
+class java.sql.Date
+class java.sql.DriverManager
+class java.sql.PreparedStatement
+class java.sql.ResultSet
+class java.sql.SQLException
+class java.sql.Statement
+class java.text.DateFormat
+class java.text.ParseException
+class java.text.SimpleDateFormat
+class java.time.LocalDateTime
+class java.time.format.DateTimeFormatter
+class java.util.Calendar
+class java.util.Locale
+class java.util.Scanner
+class java.util.logging.Level
+class java.util.logging.Logger
+class javax.swing.JFrame
+class javax.swing.JOptionPane
+com.mycompany.mavenproject1.Account ..> com.mycompany.mavenproject1.home
+com.mycompany.mavenproject1.Account ..> java.sql.Connection
+com.mycompany.mavenproject1.Account ..> java.sql.DriverManager
+com.mycompany.mavenproject1.Account ..> java.sql.PreparedStatement
+com.mycompany.mavenproject1.Account ..> java.sql.ResultSet
+com.mycompany.mavenproject1.Account ..> java.sql.SQLException
+com.mycompany.mavenproject1.Account ..> java.sql.Statement
+com.mycompany.mavenproject1.Account ..> java.util.logging.Level
+com.mycompany.mavenproject1.Account ..> java.util.logging.Logger
+com.mycompany.mavenproject1.Machine ..> java.sql.Connection
+com.mycompany.mavenproject1.Machine ..> java.sql.Date
+com.mycompany.mavenproject1.Machine ..> java.sql.DriverManager
+com.mycompany.mavenproject1.Machine ..> java.sql.PreparedStatement
+com.mycompany.mavenproject1.Machine ..> java.sql.ResultSet
+com.mycompany.mavenproject1.Machine ..> java.sql.SQLException
+com.mycompany.mavenproject1.Machine ..> java.sql.Statement
+com.mycompany.mavenproject1.Machine ..> java.text.DateFormat
+com.mycompany.mavenproject1.Machine ..> java.text.ParseException
+com.mycompany.mavenproject1.Machine ..> java.text.SimpleDateFormat
+com.mycompany.mavenproject1.Machine ..> java.time.LocalDateTime
+com.mycompany.mavenproject1.Machine ..> java.time.format.DateTimeFormatter
+com.mycompany.mavenproject1.Machine ..> java.util.Calendar
+com.mycompany.mavenproject1.Machine ..> java.util.Locale
+com.mycompany.mavenproject1.Machine ..> java.util.logging.Level
+com.mycompany.mavenproject1.Machine ..> java.util.logging.Logger
+com.mycompany.mavenproject1.Machine ..> javax.swing.JOptionPane
+com.mycompany.mavenproject1.Withdra ..> java.lang.SuppressWarnings
+com.mycompany.mavenproject1.Withdra ..> com.mycompany.mavenproject1.Account
+com.mycompany.mavenproject1.Withdra ..> com.mycompany.mavenproject1.Machine
+com.mycompany.mavenproject1.Withdra ..> com.mycompany.mavenproject1.home
+com.mycompany.mavenproject1.Withdra ..> com.mycompany.mavenproject1.login
+com.mycompany.mavenproject1.Withdra ..> java.sql.Connection
+com.mycompany.mavenproject1.Withdra ..> java.sql.DriverManager
+com.mycompany.mavenproject1.Withdra ..> java.sql.PreparedStatement
+com.mycompany.mavenproject1.Withdra ..> java.sql.ResultSet
+com.mycompany.mavenproject1.Withdra ..> java.sql.SQLException
+com.mycompany.mavenproject1.Withdra ..> java.sql.Statement
+com.mycompany.mavenproject1.Withdra ..> java.util.logging.Level
+com.mycompany.mavenproject1.Withdra ..> java.util.logging.Logger
+com.mycompany.mavenproject1.Withdra --|> javax.swing.JFrame
+com.mycompany.mavenproject1.Withdra ..> javax.swing.JOptionPane
+com.mycompany.mavenproject1.home ..> java.lang.SuppressWarnings
+com.mycompany.mavenproject1.home ..> com.mycompany.mavenproject1.Account
+com.mycompany.mavenproject1.home ..> java.awt.Toolkit
+com.mycompany.mavenproject1.home ..> java.awt.event.WindowEvent
+com.mycompany.mavenproject1.home ..> java.sql.Connection
+com.mycompany.mavenproject1.home ..> java.sql.DriverManager
+com.mycompany.mavenproject1.home ..> java.sql.PreparedStatement
+com.mycompany.mavenproject1.home ..> java.sql.ResultSet
+com.mycompany.mavenproject1.home ..> java.sql.SQLException
+com.mycompany.mavenproject1.home ..> java.sql.Statement
+com.mycompany.mavenproject1.home ..> java.util.Scanner
+com.mycompany.mavenproject1.home ..> java.util.logging.Level
+com.mycompany.mavenproject1.home ..> java.util.logging.Logger
+com.mycompany.mavenproject1.home --|> javax.swing.JFrame
+com.mycompany.mavenproject1.login ..> java.lang.SuppressWarnings
+com.mycompany.mavenproject1.login ..> java.awt.Toolkit
+com.mycompany.mavenproject1.login ..> java.awt.event.WindowEvent
+com.mycompany.mavenproject1.login ..> java.sql.Connection
+com.mycompany.mavenproject1.login ..> java.sql.DriverManager
+com.mycompany.mavenproject1.login ..> java.sql.PreparedStatement
+com.mycompany.mavenproject1.login ..> java.sql.ResultSet
+com.mycompany.mavenproject1.login ..> java.sql.SQLException
+com.mycompany.mavenproject1.login ..> java.sql.Statement
+com.mycompany.mavenproject1.login ..> java.util.Scanner
+com.mycompany.mavenproject1.login ..> java.util.logging.Level
+com.mycompany.mavenproject1.login ..> java.util.logging.Logger
+com.mycompany.mavenproject1.login --|> javax.swing.JFrame
+@enduml
